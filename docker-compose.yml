@@ -17,17 +17,17 @@ services:
   wordpress:
     depends_on: 
       - db
-    image: wordpress:5.1.1-fpm-alpine
+    image: wordpress:6.1.1-fpm-alpine
     container_name: wordpress
     restart: unless-stopped
     env_file: .env
     environment:
       - WORDPRESS_DB_HOST=db:3306
-      - WORDPRESS_DB_USER=$MYSQL_USER
-      - WORDPRESS_DB_PASSWORD=$MYSQL_PASSWORD
+      - WORDPRESS_DB_USER=root
+      - WORDPRESS_DB_PASSWORD=$MYSQL_ROOT_PASSWORD
       - WORDPRESS_DB_NAME=$MYSQL_WORDPRESS_DATABASE_NAME
     volumes:
-      - wordpress:/var/www/html
+      - ./data/wordpress:/var/www/html
     networks:
       - app-network
 
@@ -41,9 +41,9 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - wordpress:/var/www/html
+      - ./data/wordpress:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
-      - certbot-etc:/etc/letsencrypt
+      - ./data/certbot-etc:/etc/letsencrypt
     networks:
       - app-network
 
@@ -53,8 +53,8 @@ services:
     image: certbot/certbot
     container_name: certbot
     volumes:
-      - certbot-etc:/etc/letsencrypt
-      - wordpress:/var/www/html
+      - ./data/certbot-etc:/etc/letsencrypt
+      - ./data/wordpress:/var/www/html
     command: certonly --webroot --webroot-path=/var/www/html --email moralesandrea.edr4@gmail.com --agree-tos --no-eff-email --force-renewal -d alirenes.store -d www.alirenes.store -d sv.alirenes.store 
 
 volumes:
