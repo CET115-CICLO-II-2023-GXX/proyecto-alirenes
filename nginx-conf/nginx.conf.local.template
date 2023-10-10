@@ -2,7 +2,7 @@ server {
         listen 80;
         listen [::]:80;
 
-        server_name alirenes.store www.alirenes.store sv.alirenes.store;
+        server_name ${DOMINIO};
 
         location ~ /.well-known/acme-challenge {
                 allow all;
@@ -17,7 +17,7 @@ server {
 server {
         listen 443 ssl http2;
         listen [::]:443 ssl http2;
-        server_name alirenes.store www.alirenes.store sv.alirenes.store;
+        server_name ${DOMINIO};
 
         index index.php index.html index.htm;
 
@@ -35,7 +35,7 @@ server {
         add_header X-Content-Type-Options "nosniff" always;
         add_header Referrer-Policy "no-referrer-when-downgrade" always;
         add_header Content-Security-Policy "default-src * data: 'unsafe-eval' 'unsafe-inline'" always;
-        # add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
+        # add_header Strict-Transport-Security "max-age=31536000; includeSubDOMINIOs; preload" always;
         # enable strict transport security only if you understand the implications
 
         location / {

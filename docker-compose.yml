@@ -42,7 +42,7 @@ services:
     volumes:
       - ./data/wordpress:/var/www/html
       - ./nginx-conf:/etc/nginx/conf.d
-      - ./data/certbot-etc:/etc/letsencrypt
+      - certbot-etc:/etc/letsencrypt
     networks:
       - app-network
 
@@ -52,9 +52,10 @@ services:
     image: certbot/certbot
     container_name: certbot
     volumes:
-      - ./data/certbot-etc:/etc/letsencrypt
+      - certbot-etc:/etc/letsencrypt
       - ./data/wordpress:/var/www/html
-    command: certonly --webroot --webroot-path=/var/www/html --email moralesandrea.edr4@gmail.com --agree-tos --no-eff-email --force-renewal -d alirenes.store -d www.alirenes.store -d sv.alirenes.store 
+    command: certonly --webroot --webroot-path=/var/www/html --email $EMAIL --agree-tos --no-eff-email --staging -d $DOMINIO -d $WWW_DOMINIO -d $SV_DOMINIO 
+    #command: certonly --webroot --webroot-path=/var/www/html --email $EMAIL --agree-tos --no-eff-email --force-renewal -d $DOMINIO -d $WWW_DOMINIO -d $SV_DOMINIO 
 
 volumes:
   certbot-etc:
