@@ -98,3 +98,111 @@ Stack trace:
 #20 {main}
   thrown en /var/www/html/wp-content/themes/storepress/woocommerce/cart/mini-cart.php en la línea 24
 
+2023-10-09T05:36:34+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:36:48+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:37:01+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:37:15+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:37:38+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:38:04+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:38:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:38:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:38:31+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:38:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:38:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
+2023-10-09T05:38:32+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php:90
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(310): ewdufaqInstallationWalkthrough->create_category('')
+#1 /var/www/html/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /var/www/html/wp-admin/admin-ajax.php(188): do_action('wp_ajax_ewd_ufa...')
+#4 {main}
+  thrown en /var/www/html/wp-content/plugins/ultimate-faqs/includes/InstallationWalkthrough.class.php en la línea 90
+
