@@ -11,13 +11,13 @@
 			"enableNonRootDocker": "true",
 			"moby": "true"
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "chmod +x cargar-respaldo.sh crear-respaldo.sh",
+	"postCreateCommand": "chmod +x cargar-respaldo.sh crear-respaldo.sh ssl_renew.sh crear-nginx-conf.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
