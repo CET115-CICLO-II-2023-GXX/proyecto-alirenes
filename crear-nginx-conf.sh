@@ -3,7 +3,7 @@ set -o allexport
 source .env
 set +o allexport 
 # Credenciales de Nginx
-envsubst < ./nginx-conf/nginx.conf.template > ./nginx-conf/nginx.conf
+envsubst < nginx.conf.template > ./nginx-conf/nginx.conf
 
 #docker-compose up -d
 #docker-compose exec webserver ls -la /etc/letsencrypt/live
