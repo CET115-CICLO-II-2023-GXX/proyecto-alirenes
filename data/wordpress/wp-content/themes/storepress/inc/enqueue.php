@@ -5,6 +5,8 @@
 function storepress_site_scripts() {
 	
 	// Theme Styles		
+	wp_enqueue_style('wishlist-custom',get_template_directory_uri().'/assets/css/wishlist.css');
+
 	wp_enqueue_style('owl-carousel-min',get_template_directory_uri().'/assets/css/owl.carousel.min.css');
 	
 	wp_enqueue_style('bootstrap-min',get_template_directory_uri().'/assets/css/bootstrap.min.css');

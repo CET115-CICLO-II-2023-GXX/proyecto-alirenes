@@ -459,12 +459,12 @@ if ( ! function_exists( 'storepress_header_cart' ) ) {
 							
 							if ( $count > 0 ) {
 							?>
-								 <span class="cart-total">$ <?php echo esc_html( $total ); ?></span>
+								 <span class="cart-total">$<?php echo number_format($total, 2, '.', '');; ?></span>
 							<?php 
 							}
 							else {
 								?>
-								<span class="cart-total"><?php esc_html_e( '$ 0.00', 'storepress' ); ?></span>
+								<span class="cart-total"><?php esc_html_e( '$0.00', 'storepress' ); ?></span>
 								<?php 
 							}
 						?>
