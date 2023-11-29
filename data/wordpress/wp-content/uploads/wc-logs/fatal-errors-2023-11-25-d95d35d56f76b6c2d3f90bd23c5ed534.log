@@ -1,0 +1,36 @@
+2023-11-25T14:43:06+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /var/www/html/wp-content/themes/storepress/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(787): require()
+#1 /var/www/html/wp-includes/template.php(720): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/storepress/inc/theme-functions.php(463): get_template_part('woocommerce/car...', 'cart')
+#4 /var/www/html/wp-content/themes/storepress/template-parts/sections/section-header.php(44): storepress_header_cart()
+#5 /var/www/html/wp-includes/template.php(787): require('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(720): load_template('/var/www/html/w...', false, Array)
+#7 /var/www/html/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /var/www/html/wp-content/themes/storepress/inc/template-tags.php(157): get_template_part('temp en /var/www/html/wp-content/themes/storepress/woocommerce/cart/mini-cart.php en la línea 24
+
+2023-11-25T17:16:25+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /var/www/html/wp-content/themes/storepress/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(787): require()
+#1 /var/www/html/wp-includes/template.php(720): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/storepress/inc/theme-functions.php(463): get_template_part('woocommerce/car...', 'cart')
+#4 /var/www/html/wp-content/themes/storepress/template-parts/sections/section-header.php(44): storepress_header_cart()
+#5 /var/www/html/wp-includes/template.php(787): require('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(720): load_template('/var/www/html/w...', false, Array)
+#7 /var/www/html/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /var/www/html/wp-content/themes/storepress/inc/template-tags.php(157): get_template_part('temp en /var/www/html/wp-content/themes/storepress/woocommerce/cart/mini-cart.php en la línea 24
+
+2023-11-25T22:11:09+00:00 CRITICAL Uncaught Error: Call to a member function is_empty() on null in /var/www/html/wp-content/themes/storepress/woocommerce/cart/mini-cart.php:24
+Stack trace:
+#0 /var/www/html/wp-includes/template.php(787): require()
+#1 /var/www/html/wp-includes/template.php(720): load_template('/var/www/html/w...', false, Array)
+#2 /var/www/html/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /var/www/html/wp-content/themes/storepress/inc/theme-functions.php(463): get_template_part('woocommerce/car...', 'cart')
+#4 /var/www/html/wp-content/themes/storepress/template-parts/sections/section-header.php(44): storepress_header_cart()
+#5 /var/www/html/wp-includes/template.php(787): require('/var/www/html/w...')
+#6 /var/www/html/wp-includes/template.php(720): load_template('/var/www/html/w...', false, Array)
+#7 /var/www/html/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#8 /var/www/html/wp-content/themes/storepress/inc/template-tags.php(157): get_template_part('temp en /var/www/html/wp-content/themes/storepress/woocommerce/cart/mini-cart.php en la línea 24
+
