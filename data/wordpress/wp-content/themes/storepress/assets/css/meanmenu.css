@@ -82,7 +82,7 @@ a.site-title {
 }
 
 .navigation-middle-row {
-    min-height: 115px;
+    /* min-height: 115px; */
 }
 
 .navbar-brand {
@@ -120,7 +120,7 @@ a.site-title {
 .main-navbar {
     flex: auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     text-align: right;
     position: relative;
@@ -345,16 +345,17 @@ ul.main-menu li {
     color: transparent !important;
 }
 
-.main-navbar .main-menu > li.menu-item {
-    margin-left: 25px;
+.main-navbar .product-category-menus-list.active .main-menu > li.menu-item {
+    margin-left: 0;
+    width: 100%;
 }
 
-.main-navbar .main-menu > li.menu-item:first-child {
+/* .main-navbar .main-menu > li.menu-item:first-child {
     margin-left: 0;
-}
+} */
 
 .main-navbar .main-menu > li.menu-item > a {
-    padding: 0;
+    padding: 0 1rem;
 }
 
 .main-menu > li > a {
