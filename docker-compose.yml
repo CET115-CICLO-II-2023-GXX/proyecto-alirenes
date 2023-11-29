@@ -27,6 +27,7 @@ services:
       - WORDPRESS_DB_NAME=$MYSQL_WORDPRESS_DATABASE_NAME
     volumes:
       - ./data/wordpress:/var/www/html
+      - ./wordpress.ini:/usr/local/etc/php/conf.d/wordpress.ini
     networks:
       - app-network
 
