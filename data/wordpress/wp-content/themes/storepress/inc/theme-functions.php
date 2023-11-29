@@ -151,46 +151,48 @@ if ( ! function_exists( 'storepress_hdr_product_categories' ) ) {
 	function storepress_hdr_product_categories() { 
 	$hs_hdr_product_cat			=	get_theme_mod('hs_hdr_product_cat','1');
 	if($hs_hdr_product_cat == '1'  && class_exists( 'woocommerce' )): ?>
-		<div class="product-category-browse">
-			<button type="button" class="product-category-btn"><span><i class="fa fa-navicon"></i><?php  esc_html_e('All Categories','storepress'); ?></span></button>
-			<div class="product-category-menus">
-				<div class="product-category-menus-list">
-					<ul class="main-menu">
-						<?php
-						$categories = array(
-							  'taxonomy' => 'product_cat',
-							  'hide_empty' => false,
-							  'parent'   => 0
-						  );
-						$product_cat = get_terms( $categories );
-						foreach ($product_cat as $parent_product_cat) {
-							$child_args = array(
-								'taxonomy' => 'product_cat',
-								'hide_empty' => false,
-								'parent'   => $parent_product_cat->term_id
-							);
-							$thumbnail_id = get_term_meta( $parent_product_cat->term_id, 'thumbnail_id', true );
-							$image = wp_get_attachment_url( $thumbnail_id );
-							$child_product_cats = get_terms( $child_args );
-							$storepress_product_cat_icon = get_term_meta($parent_product_cat->term_id, 'storepress_product_cat_icon', true);
-							if ( ! empty($child_product_cats) ) {
-								echo '<li class="menu-item menu-item-has-children"><a href="'.esc_url(get_term_link($parent_product_cat->term_id)).'" class="nav-link">'.(!empty($storepress_product_cat_icon) ? "<i class='fa {$storepress_product_cat_icon}'></i>":''); echo esc_html($parent_product_cat->name).'</a>';
-							} else {
-								echo '<li class="menu-item"><a href="'.esc_url(get_term_link($parent_product_cat->term_id)).'" class="nav-link">'.(!empty($storepress_product_cat_icon) ? "<i class='fa {$storepress_product_cat_icon}'></i>":''); echo esc_html($parent_product_cat->name).'</a>';
-							}
-							if ( ! empty($child_product_cats) ) {
-								echo '<ul class="dropdown-menu">';
-								foreach ($child_product_cats as $child_product_cat) {
-								echo '<li class="menu-item"><a href="'.esc_url(get_term_link($child_product_cat->term_id)).'" class="dropdown-item">'.esc_html($child_product_cat->name).'</a></li>';
-								} echo '</ul>';
-							} echo '</li>';
-						} ?>
-					</ul>
-				</div>
-			</div>
+	<div class="product-category-browse">
+	<button type="button" class="product-category-btn"><span><i class="fa fa-navicon"></i><?php  esc_html_e('All Categories','storepress'); ?></span></button>
+	<div class="product-category-menus">
+		<div class="product-category-menus-list">
+			<ul class="main-menu">
+				<?php
+				$categories = array(
+						'taxonomy' => 'product_cat',
+						'hide_empty' => false,
+						'parent'   => 0
+					);
+				$product_cat = get_terms( $categories );
+				foreach ($product_cat as $parent_product_cat) {
+					$child_args = array(
+						'taxonomy' => 'product_cat',
+						'hide_empty' => false,
+						'parent'   => $parent_product_cat->term_id
+					);
+					$thumbnail_id = get_term_meta( $parent_product_cat->term_id, 'thumbnail_id', true );
+					$image = wp_get_attachment_url( $thumbnail_id );
+					$child_product_cats = get_terms( $child_args );
+					$storepress_product_cat_icon = get_term_meta($parent_product_cat->term_id, 'storepress_product_cat_icon', true);
+					if ( ! empty($child_product_cats) ) {
+						echo '<li class="menu-item menu-item-has-children"><a href="'.esc_url(get_term_link($parent_product_cat->term_id)).'" class="nav-link">'.(!empty($storepress_product_cat_icon) ? "<i class='fa {$storepress_product_cat_icon}'></i>":''); echo esc_html($parent_product_cat->name).'</a>';
+					} else {
+						echo '<li class="menu-item"><a href="'.esc_url(get_term_link($parent_product_cat->term_id)).'" class="nav-link">'.(!empty($storepress_product_cat_icon) ? "<i class='fa {$storepress_product_cat_icon}'></i>":''); echo esc_html($parent_product_cat->name).'</a>';
+					}
+					if ( ! empty($child_product_cats) ) {
+						echo '<ul class="dropdown-menu">';
+						foreach ($child_product_cats as $child_product_cat) {
+						echo '<li class="menu-item"><a href="'.esc_url(get_term_link($child_product_cat->term_id)).'" class="dropdown-item">'.esc_html($child_product_cat->name).'</a></li>';
+						} echo '</ul>';
+					} echo '</li>';
+				} ?>
+			</ul>
 		</div>
+	</div>
+</div>
 	<?php endif; }
 }
+
+
 
 
 
@@ -450,7 +452,22 @@ if ( ! function_exists( 'storepress_header_cart' ) ) {
 								<?php 
 							}
 						?>
+						
 					</button>
+						<?php 
+							$total=WC()->cart->cart_contents_total;
+							
+							if ( $count > 0 ) {
+							?>
+								 <span class="cart-total">$<?php echo number_format($total, 2, '.', '');; ?></span>
+							<?php 
+							}
+							else {
+								?>
+								<span class="cart-total"><?php esc_html_e( '$0.00', 'storepress' ); ?></span>
+								<?php 
+							}
+						?>
 					<div class="cart-modal cart-modal-1">
 						<div class="cart-container">
 							<div class="cart-header">

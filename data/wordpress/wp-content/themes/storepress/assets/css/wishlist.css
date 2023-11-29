@@ -1,0 +1,51 @@
+.woosw-btn {
+    background-color: var(--bs-whishlist-light);
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+span.woosw-btn-icon {
+    color: var(--bs-light);
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+/* span.woosw-btn-icon.woosw-icon-8 {
+    color: var(--bs-whishlist);
+    font-size: 2rem;
+} */
+
+span.woosw-btn-text {
+    color: var(--bs-light);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Precio del producto pantalla completa */
+.price .amount {
+    color: var(--bs-black);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Precio de las tarjetas con productos */
+.product-content .price .amount {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+/* Número de telefono header */
+.fa-solid.fa-phone{
+padding-right: 1rem;
+}
+.cart-total{
+font-weight: 500;
+padding-left: 1rem;
+color: var(--bs-secondary);
+}
+
+.title span.line{
+    display: none;
+}
