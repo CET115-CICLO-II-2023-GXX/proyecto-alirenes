@@ -43,4 +43,9 @@ padding-right: 1rem;
 .cart-total{
 font-weight: 500;
 padding-left: 1rem;
+color: var(--bs-secondary);
+}
+
+.title span.line{
+    display: none;
 }
