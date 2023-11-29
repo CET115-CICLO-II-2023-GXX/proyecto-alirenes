@@ -1808,6 +1808,11 @@ legend {
 /*===== // =====*/
 
 /*===== Product Category Home =====*/
+.vf-product-category{
+    position: relative;
+    bottom: 5rem;
+    padding: 0;
+}
 
 .product-category-home {
     position: relative;
