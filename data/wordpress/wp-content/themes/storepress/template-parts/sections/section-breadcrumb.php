@@ -7,7 +7,7 @@
 		
 if($storepress_hs_breadcrumb == '1') {	
 ?>
-<div id="vf-breadcrumb-wrap" class="vf-breadcrumb-wrap" style="background: url('<?php echo esc_url($storepress_breadcrumb_bg_img); ?>') center center / cover rgba(<?php echo esc_attr($br); ?>, <?php echo esc_attr($bg); ?>, <?php echo esc_attr($bb); ?>, <?php echo esc_attr($storepress_breadcrumb_opacity); ?>); background-blend-mode: multiply;">
+<div id="vf-breadcrumb-wrap" class="vf-breadcrumb-wrap" >
 	<div class="container">
 		<div class="row">
 			<div class="col-12">

@@ -2703,7 +2703,7 @@ span.cart-ft-amt-label:after {
 
 .vf-breadcrumb-wrap {
     position: relative;
-    padding: 78px 0;
+    padding: 2rem 0 1rem;
     z-index: 0;
 }
 
@@ -2711,11 +2711,11 @@ span.cart-ft-amt-label:after {
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .vf-breadcrumb-wrap .breadcrumb-content .breadcrumb-list li {
-    color: #fff;
+    color: #190482;
     font-size: 20px;
     font-weight: 500;
     display: inline-block;
@@ -2728,7 +2728,7 @@ span.cart-ft-amt-label:after {
 
 .header-two .vf-breadcrumb-wrap .breadcrumb-content .breadcrumb-list li,
 .header-two .vf-breadcrumb-wrap .breadcrumb-content .breadcrumb-list li a {
-    color: #fff;
+    color: #190482;
 }
 
 
