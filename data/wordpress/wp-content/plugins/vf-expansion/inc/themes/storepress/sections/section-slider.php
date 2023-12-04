@@ -7,8 +7,38 @@
 ?>	
 <div id="vf-slider-section" class="vf-slider-section">
 	<div class="slider-area">
-		<div class="home-slider owl-carousel owl-theme">
-			<?php
+		<div class="home-slider owl-carousel owl-theme"style="padding-top: 50px">
+		<div class="item">                        
+				<div class="main-slider">
+					<div class="main-table">
+						<div class="main-table-cell">
+							<div class="container">
+								<div class="row" >
+									<div class="col-lg-6 col-12">
+											<div class="mt-5" style="width:350px;display: flex;">
+												
+												<video   autoplay loop muted style="overflow: hidden;border-radius: 25% 75% / 50%;">
+													<source src="https://alirenes.store/wp-content/uploads/frontend/video-navidad.mp4" type="video/mp4" />
+													Tu Browser no soporta video.
+									 			</video>
+											</div>
+					
+									</div>
+									<div class="col-lg-6 col-12 mt-auto">
+										<div class="main-slider-img mt-5" >
+										<div class="h1 text-white">Feliz Navidad y Próspero Año Nuevo</div>
+											<div class="h3 text-white">Te desea</div>
+											<img id="logo-slider" src="https://alirenes.store/wp-content/uploads/frontend/logo-alirenes.png" alt="Alirene´s - navidad" style>
+											<div class="h4 text-white">¡Gracias por tu preferencia!</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<?php 
 				if ( ! empty( $slider ) ) {
 				$slider = json_decode( $slider );
 				foreach ( $slider as $item ) {

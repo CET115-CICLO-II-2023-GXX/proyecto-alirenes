@@ -49,3 +49,76 @@ color: var(--bs-secondary);
 .title span.line{
     display: none;
 }
+
+.button-next,
+.button-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    background: white;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    /* opacity: .5; */
+    /* transition: opacity .15s ease */
+}
+
+.button-prev {
+    left: 0;
+    border-bottom-right-radius:0.3rem;
+    border-top-right-radius:0.3rem;
+}
+
+.button-next {
+    right: 0;
+    border-bottom-left-radius:0.3rem;
+    border-top-left-radius:0.3rem;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
+    .button-next,
+    .button-prev {
+        transition: none
+    }
+}
+.button-next:hover,
+.button-prev:hover,
+.button-next:focus,
+.button-prev:focus {
+background: white;
+}
+
+.link-compra-ya {
+
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: #ffffff;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #e0144c;
+    width: fit-content;
+    }
+
+    .link-compra-ya .text-wrapper {
+
+    font-weight: 400;
+    color: #E0144C;
+    font-size: 1rem;
+    letter-spacing: 0.16px;
+    } 
+
+    .link-compra-ya a.text-wrapper:hover,.link-compra-ya a.text-wrapper:focus{
+    text-decoration: none;
+    }
+
+    #sueter{
+        width: 25rem;
+    }

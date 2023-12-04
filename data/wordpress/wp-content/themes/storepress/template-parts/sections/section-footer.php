@@ -2,7 +2,7 @@
 $storepress_footer_bg_img	   		= get_theme_mod('footer_bg_img',esc_url(get_template_directory_uri() .'/assets/images/footer_bg.jpg'));
 $storepress_footer_bg_img_opacity   = get_theme_mod('footer_bg_img_opacity','0.65');
 ?>
-<footer id="vf-footer-wrap" class="vf-footer-wrap footer-three" style="background:url('<?php echo esc_url($storepress_footer_bg_img); ?>') no-repeat scroll center center / cover rgba(0, 0, 0, <?php echo esc_attr($storepress_footer_bg_img_opacity); ?>);background-blend-mode:multiply;">
+<footer id="vf-footer-wrap" class="vf-footer-wrap footer-three">
 	<div class="footer-content">
 		<div class="container">
 			<div class="row mt-md-0 mt-4 g-5">	

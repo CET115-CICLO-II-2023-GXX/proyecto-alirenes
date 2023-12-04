@@ -6072,14 +6072,14 @@ button.close {
 
 .carousel-control-next,
 .carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+    position: relative;
+    top: 50%;
+    /* bottom: 0; */
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15%;
+    width: fit-content;
     color: #fff;
     text-align: center;
     opacity: .5;
