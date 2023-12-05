@@ -6,8 +6,10 @@ if ( ! function_exists( 'vf_expansion_storepress_sponsor_section' ) ) :
 	if($sponsor2_hide_show=='1'):
 ?>	
 <?php if ( is_active_sidebar( 'storepress-footer-1' ) ) : ?>
-    <div class="col-12 wow fadeIn">
-	<?php dynamic_sidebar( 'storepress-footer-1'); ?>
+	<div class="container">
+		<div class="col-12 wow fadeIn">
+			<?php dynamic_sidebar( 'storepress-footer-1'); ?>
+		</div>
     </div>
 <?php endif; ?>		
 <div id="vf-sponsor" class="vf-sponsor vf-products-info-three st-py-default">
