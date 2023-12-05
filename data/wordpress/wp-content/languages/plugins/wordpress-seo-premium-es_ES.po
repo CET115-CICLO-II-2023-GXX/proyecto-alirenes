@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Yoast - Yoast SEO Premium (for WordPress) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-10 13:05:40+0000\n"
+"PO-Revision-Date: 2023-12-04 13:36:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -374,110 +374,110 @@ msgstr "Mejoras del schema de Yoast SEO"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:127
-#: tests/unit/integrations/admin/user-profile-integration-test.php:121
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:121
 msgid "E.g. %1$sAcme inc%2$s"
 msgstr "P.ej. %1$sMartínez S.L.%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:125
-#: tests/unit/integrations/admin/user-profile-integration-test.php:119
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:119
 msgid "Employer name"
 msgstr "Nombre del empleador"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:121
-#: tests/unit/integrations/admin/user-profile-integration-test.php:115
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:115
 msgid "E.g. %1$ssoftware engineer%2$s"
 msgstr "P.ej. %1$singeniero de software%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:115
-#: tests/unit/integrations/admin/user-profile-integration-test.php:109
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:109
 msgid "Employer information"
 msgstr "Información del empleador"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:111
-#: tests/unit/integrations/admin/user-profile-integration-test.php:105
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:105
 msgid "Comma separated, e.g. %1$sEnglish, French, Dutch%2$s"
 msgstr "Separados por comas, p.ej. %1$singlés, francés, español%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:109
-#: tests/unit/integrations/admin/user-profile-integration-test.php:103
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:103
 msgid "Language(s) spoken"
 msgstr "Idioma(s) hablado(s)"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:105
-#: tests/unit/integrations/admin/user-profile-integration-test.php:99
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:99
 msgid "Comma separated, e.g. %1$sPHP, JavaScript, 90's rock music%2$s"
 msgstr "Separados por comas, p.ej. %1$sPHP, JavaScript, música rock de los 90%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:103
-#: tests/unit/integrations/admin/user-profile-integration-test.php:97
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:97
 msgid "Expertise in"
 msgstr "Experiencia en"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:99
-#: tests/unit/integrations/admin/user-profile-integration-test.php:93
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:93
 msgid "Comma separated, e.g. %1$sMost likely to succeed - 1991, Smartest in class - 1990%2$s"
 msgstr "Separados por comas, p.ej. %1$sEl más preparado para triunfar - 1991, el más inteligente de la clase - 1990%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:97
-#: tests/unit/integrations/admin/user-profile-integration-test.php:91
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:91
 msgid "Awards"
 msgstr "Premios"
 
 #: src/integrations/admin/user-profile-integration.php:93
-#: tests/unit/integrations/admin/user-profile-integration-test.php:87
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:87
 msgid "Extra information"
 msgstr "Información adicional"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:89
-#: tests/unit/integrations/admin/user-profile-integration-test.php:83
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:83
 msgid "E.g. %1$sfemale%2$s, %1$smale%2$s, %1$snon-binary%2$s"
 msgstr "P.ej. %1$smujer%2$s, %1$shombre%2$s, %1$sno binario%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:87
-#: tests/unit/integrations/admin/user-profile-integration-test.php:81
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:81
 msgid "Gender"
 msgstr "Género"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:83
-#: tests/unit/integrations/admin/user-profile-integration-test.php:77
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:77
 msgid "Use format: %1$sYYYY-MM-DD%2$s"
 msgstr "Formato a utilizar: %1$sYYYY-MM-DD%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:81
-#: tests/unit/integrations/admin/user-profile-integration-test.php:75
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:75
 msgid "Birth date"
 msgstr "Fecha de nacimiento"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:77
-#: tests/unit/integrations/admin/user-profile-integration-test.php:71
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:71
 msgid "E.g. %1$sMD%2$s, %1$sPhD%2$s"
 msgstr "P.ej. %1$sMD%2$s, %1$sPhD%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:75
-#: tests/unit/integrations/admin/user-profile-integration-test.php:69
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:69
 msgid "Honorific suffix"
 msgstr "Sufijo honorífico"
 
 #. translators: %1$s is replaced by `<code>`, %2$s by `</code>`.
 #: src/integrations/admin/user-profile-integration.php:71
-#: tests/unit/integrations/admin/user-profile-integration-test.php:65
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:65
 msgid "E.g. %1$sDr%2$s, %1$sMs%2$s, %1$sMr%2$s"
 msgstr "P.ej. %1$sDr%2$s, %1$sSra.%2$s, %1$sSr%2$s"
 
 #: src/integrations/admin/user-profile-integration.php:69
-#: tests/unit/integrations/admin/user-profile-integration-test.php:63
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:63
 msgid "Honorific prefix"
 msgstr "Prefijo honorífico"
 
 #: src/integrations/admin/user-profile-integration.php:65
-#: tests/unit/integrations/admin/user-profile-integration-test.php:59
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:59
 msgid "Basic information"
 msgstr "Información básica"
 
@@ -490,7 +490,7 @@ msgid "Learn more about including custom fields in the page analysis"
 msgstr "Aprende más sobre cómo incluir campos personalizados en el análisis de página"
 
 #: src/integrations/admin/user-profile-integration.php:119
-#: tests/unit/integrations/admin/user-profile-integration-test.php:113
+#: tests/Unit/Integrations/Admin/User_Profile_Integration_Test.php:113
 msgid "Job title"
 msgstr "Puesto del trabajo"
 

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Smash Balloon Social Post Feed &#8211; Customizable Social Feeds Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-10-19 15:49:14+0000\n"
+"PO-Revision-Date: 2023-12-02 07:51:04+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,167 @@ msgstr ""
 "X-Generator: GlotPress/4.0.0-alpha.11\n"
 "Language: es\n"
 "Project-Id-Version: Plugins - Smash Balloon Social Post Feed &#8211; Customizable Social Feeds Plugin - Stable (latest release)\n"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:543
+msgid "Create and send high-converting web push notifications to your website visitors."
+msgstr "Crea y envía notificaciones push web de alta conversión a los visitantes de tu web."
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:542
+msgid "PushEngage Notifications"
+msgstr "PushEngage Notifications"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:540
+msgid "PushEngage"
+msgstr "PushEngage"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:530
+msgid "Make popups & opt-in forms to build your email newsletter subscribers, generate leads, and close sales"
+msgstr "Crea ventanas emergentes y formularios de alta para conseguir suscriptores a tu boletín de correo electrónico, generar clientes potenciales y cerrar ventas"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:529
+msgid "OptinMonster Popup Builder"
+msgstr "OptinMonster Popup Builder"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:517
+msgid "A simple and powerful theme builder, landing page builder, \"coming soon\" page builder, and maintenance mode notice builder"
+msgstr "Un sencillo y potente maqutador de temas, constructor de páginas de destino y constructor de páginas «próximamente» y de avisos de modo de mantenimiento"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:516
+msgid "SeedProd Website Builder"
+msgstr "SeedProd Website Builder"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:514
+msgid "SeedProd"
+msgstr "SeedProd"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:504
+msgid "Create contact, subscription or payment forms with the most beginner friendly drag & drop WordPress forms plugin"
+msgstr "Crea formularios de contacto, suscripción o pago con el plugin de creación de formularios mediante arrastra y soltar para WordPress más fácil de usar"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:503
+msgid "Forms by WPForms"
+msgstr "Forms by WPForms"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:491
+msgid "Make it “effortless” to connect your WordPress site with Google Analytics, so you can start making data-driven decisions to grow your business."
+msgstr "Conecta fácilmente tu sitio WordPress con Google Analytics para que puedas empezar a tomar decisiones basadas en datos y hacer crecer tu negocio."
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:490
+msgid "Analytics by MonsterInsights"
+msgstr "Analytics by MonsterInsights"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:488
+msgid "Monster Insights"
+msgstr "Ideas de monstruos"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:477
+msgid "All in One SEO Toolkit"
+msgstr "All in One SEO Toolkit"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:475
+msgid "All in One SEO"
+msgstr "All in One SEO"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:448
+msgid "Install Reviews Feed to display customer reviews from Google or Yelp and build trust"
+msgstr "Instala el Reviews Feed para mostrar las reseñas de clientes de Google o Yelp y generar confianza"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:447
+msgid "Customer Reviews Plugin"
+msgstr "Plugin de valoración de clientes"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:293
+msgid "feed plugins for more fresh content"
+msgstr "plugins de feeds para más contenido fresco"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:292
+msgid "Social Feed Collection"
+msgstr "Recogida de feeds sociales"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:246
+msgid "And many more"
+msgstr "Y muchos más"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:238
+msgid "Tagged Feeds"
+msgstr "Feeds de etiquetado"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:234
+msgid "Hashtag Feeds"
+msgstr "Feeds de hashtag"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:225
+msgid "Upgrade today and %ssave 50%% on a Pro License!%s%s (auto-applied at checkout)"
+msgstr "Actualiza hoy y %s¡ahorra un 50%% en una licencia Pro!%s%s (se aplica automáticamente al realizar el pago)"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:219
+msgid "To unlock these features and much more, upgrade to Pro and enter your license key below."
+msgstr "Para desbloquear estas características y mucho más, actualiza a Pro e introduce tu clave de licencia a continuación."
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:218
+msgid "Upgrade to unlock hashtag feeds, tagged feeds, a popup lightbox and more"
+msgstr "Actualiza para desbloquear feeds de hashtags, feeds de etiquetado, una caja de luz y mucho más"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:216
+msgid "Here's an overview of everything that is setup"
+msgstr "Aquí tienes un resumen de todo lo que está configurado"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:215
+msgid "Awesome. You are all set up!"
+msgstr "Estupendo. ¡Ya lo tienes todo configurado!"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:209
+msgid "Enable your favorite features and disable the ones you don't need"
+msgstr "Activa tus características favoritas y desactiva las que no necesites"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:208
+msgid "You might also be interested in..."
+msgstr "También te puede interesar..."
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:183
+msgid "Images and Videos"
+msgstr "Imágenes y vídeos"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:159
+msgid "Prevent downtime in the event your feed is unable to update"
+msgstr "Evita las caídas cuando no se puede actualizar tu feed"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:158
+msgid "Downtime Prevention"
+msgstr "Prevención de cortes"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:143
+msgid "STEP 2"
+msgstr "PASO 2"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:142
+msgid "Configure features"
+msgstr "Configurar características"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:137
+msgid "STEP 1"
+msgstr "PASO 1"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:128
+msgid "Launch the Setup Wizard"
+msgstr "Lanzar el asistente de configuración"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:126
+msgid "Let's set up your plugin!"
+msgstr "¡Vamos a configurar tu plugin!"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:120
+msgid "Feed plugins for # installed"
+msgstr "Plugins de feed de # instalados"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:119
+msgid "Setup Features!"
+msgstr "¡Configura las características!"
+
+#: inc/Admin/CFF_Onboarding_Wizard.php:88
+#: inc/Admin/CFF_Onboarding_Wizard.php:89 inc/Builder/CFF_Feed_Builder.php:965
+msgid "Setup"
+msgstr "Configuración"
 
 #: assets/dist/sbf-feed/block.json
 msgctxt "block keyword"
@@ -55,6 +216,15 @@ msgstr "Selecciona y muestra cualquiera de tus feeds de Facebook"
 msgctxt "block title"
 msgid "Facebook Feed"
 msgstr "Feed de Facebook"
+
+#: inc/Builder/Tabs/CFF_Customize_Tab.php:171
+msgid "Carousel "
+msgstr "Carrusel "
+
+#: inc/Admin/CFF_Admin.php:83 inc/Admin/CFF_Admin.php:84
+#: inc/Builder/CFF_Feed_Builder.php:2292 assets/dist/blocks.js:1
+msgid "Reviews Feed"
+msgstr "Feed de reseñas"
 
 #: inc/Admin/CFF_Admin.php:72
 msgid "<span class=\"cff_get_pro\">Upgrade to Pro</span>"
@@ -644,6 +814,10 @@ msgstr "Actualiza a Pro para cargar publicaciones asíncronamente con el botón 
 msgid "Hide or Show individual elements of a post or edit their options"
 msgstr "Oculta elementos individuales de una publicación o edita sus opciones"
 
+#: inc/Builder/Tabs/CFF_Customize_Tab.php:33
+msgid "Feed Type"
+msgstr "Tipo de feed"
+
 #: inc/Builder/Tabs/CFF_Builder_Customizer_Tab.php:51
 msgid "Inherit"
 msgstr "Heredar"
@@ -696,6 +870,10 @@ msgstr "Cargar más"
 #: inc/Builder/CFF_Feed_Builder.php:2686
 msgid "Url"
 msgstr "Url"
+
+#: inc/Builder/CFF_Feed_Builder.php:2682
+msgid "Description"
+msgstr "Descripción"
 
 #: inc/Builder/CFF_Feed_Builder.php:2678
 msgid "Title"
@@ -1284,6 +1462,11 @@ msgstr "Una sola publicación destacada"
 #: inc/Builder/CFF_Feed_Builder.php:1243
 msgid "Show reviews or recommendations from your Facebook page"
 msgstr "Mostrar reseñas o recomendaciones de tu página de Facebook"
+
+#: inc/Builder/CFF_Feed_Builder.php:1242 inc/Builder/CFF_Feed_Builder.php:2291
+#: inc/Builder/Tabs/CFF_Settings_Tab.php:102
+msgid "Reviews"
+msgstr "Reseñas"
 
 #: inc/Builder/CFF_Feed_Builder.php:1223
 msgid "Display events from your Facebook Events page"
@@ -3987,7 +4170,7 @@ msgstr "Custom Twitter Feeds es una forma altamente personalizable para mostrar 
 
 #: inc/Admin/CFF_About.php:820 inc/Admin/CFF_About_Us.php:330
 msgid "Custom Twitter Feeds"
-msgstr "Custom Twitter Feeds"
+msgstr "Feeds de Twitter personalizados"
 
 #: inc/Admin/CFF_About.php:811 inc/Builder/CFF_Feed_Builder.php:343
 #: inc/Builder/CFF_Feed_Builder.php:1708

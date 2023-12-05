@@ -4,7 +4,12 @@ if ( ! function_exists( 'vf_expansion_storepress_sponsor_section' ) ) :
 	$sponsor2_hide_show	= get_theme_mod('sponsor2_hide_show','1');		
 	$sponsor2_content 	= get_theme_mod('sponsor2_content',storepress_get_sponsor2_default());
 	if($sponsor2_hide_show=='1'):
-?>		
+?>	
+<?php if ( is_active_sidebar( 'storepress-footer-1' ) ) : ?>
+    <div class="col-12 wow fadeIn">
+	<?php dynamic_sidebar( 'storepress-footer-1'); ?>
+    </div>
+<?php endif; ?>		
 <div id="vf-sponsor" class="vf-sponsor vf-products-info-three st-py-default">
 	<div class="container">
 		<div class="row text-center py-2">
@@ -71,6 +76,16 @@ if ( ! function_exists( 'vf_expansion_storepress_sponsor_section' ) ) :
 			</div>
 	</div>
 </div>
+
+
+<?php if ( is_active_sidebar( 'storepress-footer-2' ) ) : ?>
+	<div class="container">
+
+		<div class="col-12 text-left wow fadeIn">
+			<?php dynamic_sidebar( 'storepress-footer-2'); ?>
+		</div>
+	</div>
+<?php endif; ?> 
 <?php endif; }
 endif;
 if ( function_exists( 'vf_expansion_storepress_sponsor_section' ) ) {

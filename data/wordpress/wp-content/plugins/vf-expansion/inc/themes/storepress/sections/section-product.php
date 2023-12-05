@@ -40,7 +40,11 @@ endif;
 						$loop = new WP_Query( $args ); 
 						if( $loop->have_posts() )
 						{
-							while ( $loop->have_posts() ) : $loop->the_post(); global $product; ?>
+							while ( $loop->have_posts() ) : 
+							$loop->the_post(); 
+							global $product;
+						?>
+
 						<?php get_template_part('woocommerce/content','product'); ?>
 						<?php endwhile; } ?>
 					</ul>

@@ -5248,6 +5248,12 @@ footer span.wc-block-product-categories-list-item-count {
     margin: 3rem 0 0;
     padding: 0 3rem;
 }
+.mensaje-preguntas-frecuentes{
+    text-align: justify;
+}
+.preguntas-frecuentes{
+    text-align: left;
+}
 
 @media only screen and (max-width: 767px) {
     .st-masonry[class*="st-masonry-"] {
