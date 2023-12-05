@@ -7,7 +7,7 @@ $storepress_footer_bg_img_opacity   = get_theme_mod('footer_bg_img_opacity','0.6
 		<div class="container">
 			<div class="row mt-md-0 mt-4 g-5">	
 				
-					<?php if ( is_active_sidebar( 'storepress-footer-1' ) ) : ?>
+					<!-- <?php if ( is_active_sidebar( 'storepress-footer-1' ) ) : ?>
 						<div class="col-lg-3 col-md-6 col-12 wow fadeIn">
 							 <?php dynamic_sidebar( 'storepress-footer-1'); ?>
 						</div>
@@ -17,10 +17,10 @@ $storepress_footer_bg_img_opacity   = get_theme_mod('footer_bg_img_opacity','0.6
 						<div class="col-lg-6 col-md-12 col-12 text-left text-lg-center wow fadeIn">
 							 <?php dynamic_sidebar( 'storepress-footer-2'); ?>
 						</div>
-					<?php endif; ?>
+					<?php endif; ?> -->
 					
 					<?php if ( is_active_sidebar( 'storepress-footer-3' ) ) : ?>
-						<div class="col-lg-3 col-md-6 col-12 wow fadeIn">
+						<div class="col-12 wow fadeIn">
 							 <?php dynamic_sidebar( 'storepress-footer-3'); ?>
 						</div>
 					<?php endif; ?>	

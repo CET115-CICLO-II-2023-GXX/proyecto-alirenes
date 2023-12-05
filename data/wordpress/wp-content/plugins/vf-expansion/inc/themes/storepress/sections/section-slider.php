@@ -5,10 +5,10 @@
 	$slider	= get_theme_mod('slider2',storepress_get_slider2_default());	
 	if($slider2_hide_show=='1'):
 ?>	
-<div id="vf-slider-section" class="vf-slider-section">
+<div id="vf-slider-section" class="vf-slider-section" style="background: #99C616">
 	<div class="slider-area">
-		<div class="home-slider owl-carousel owl-theme"style="padding-top: 50px">
-		<div class="item">                        
+		<div class="home-slider owl-carousel owl-theme">
+		<div class="item" >                        
 				<div class="main-slider">
 					<div class="main-table">
 						<div class="main-table-cell">
@@ -59,11 +59,11 @@
 									<div class="col-lg-7 col-12">
 										<div class="main-content text-left">
 											<?php if(!empty($title)): ?>
-												<h6 data-animation="fadeInUp" data-delay="100ms"><?php echo esc_html( $title ); ?></h6>
+												<h6 class="titulo-slide" data-animation="fadeInUp" data-delay="100ms"><?php echo esc_html( $title ); ?></h6>
 											<?php endif; ?>	
 											
 											<?php if(!empty($subtitle)): ?>
-												<h5 data-animation="fadeInUp" data-delay="300ms"><?php echo esc_html( $subtitle ); ?></h5>
+												<h5 class="subtitulo-slide" data-animation="fadeInUp" data-delay="300ms"><?php echo esc_html( $subtitle ); ?></h5>
 											<?php endif; ?>	
 											
 											<?php if(!empty($subtitle2)): ?>
@@ -71,11 +71,11 @@
 											<?php endif; ?>	
 											
 											<?php if(!empty($text)): ?>
-												<p data-animation="fadeInUp" data-delay="700ms"><?php echo esc_html( $text ); ?></p>
+												<p class="descripcion-slide" data-animation="fadeInUp" data-delay="700ms"><?php echo esc_html( $text ); ?></p>
 											<?php endif; ?>	
 											
 											<?php if(!empty($button)): ?>
-												<a data-animation="fadeIn" data-delay="900ms" href="<?php echo esc_url( $link ); ?>" class="btn btn-secondary"><?php echo esc_html( $button ); ?></a>
+												<a data-animation="fadeIn" data-delay="900ms" href="<?php echo esc_url( $link ); ?>" class="btn btn-secondary slide-button"><?php echo esc_html( $button ); ?></a>
 											<?php endif; ?>		
 										</div>
 									</div>
